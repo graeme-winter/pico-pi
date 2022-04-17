@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include "pico/stdlib.h"
+#include <stdio.h>
 
-
-int main()
-{
+int main() {
   stdio_init_all();
 
   for (;;) {
@@ -18,4 +16,3 @@ int main()
 
   return 0;
 }
-
