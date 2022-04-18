@@ -13,7 +13,7 @@ int main() {
         d = d * b + f * (h ? a[b] : f / 5), a[b] = d % --g;
 
     absolute_time_t t1 = get_absolute_time();
-    printf("\n%ld µs\n", absolute_time_diff_us(t0, t1));
+    printf("\n%ld microseconds\n", absolute_time_diff_us(t0, t1));
   }
 
   return 0;
